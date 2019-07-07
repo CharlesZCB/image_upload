@@ -1,0 +1,30 @@
+package com.cn.bean;
+
+
+
+
+public class User {
+	
+	private  Integer id;
+	private  String username;
+	private  Object image;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public Object getImage() {
+		return image;
+	}
+	public void setImage(Object image) {
+		this.image = image;
+	}
+
+}
